@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.2' 
+VERSION = '1.0.4' 
 DESCRIPTION = 'A pandas dataframe preprocessing python package'
-LONG_DESCRIPTION = 'Contains utility functions that Is used in preprocessing stages of DL/ML implementation'
+LONG_DESCRIPTION = 'Contains utility functions that is used in preprocessing stages of DL/ML implementation'
 
 with open('README.md', 'r', encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
@@ -14,6 +14,7 @@ setup(
         author="Ameh Solomon Onyeke",
         author_email="amehsolomon46@gmail.com",
         description=DESCRIPTION,
+        readme='README.md',
         long_description=LONG_DESCRIPTION,
         url="https://github.com/Uncle-Solomon/little_preprocessor", 
         packages=find_packages(),
